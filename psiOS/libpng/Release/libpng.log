@@ -1,0 +1,36 @@
+﻿  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c png.c -o RELEASE/png.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngerror.c -o RELEASE/pngerror.obj
+  pngerror.c: In function `png_longjmp':
+  pngerror.c:584: warning: `noreturn' function does return
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngget.c -o RELEASE/pngget.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngmem.c -o RELEASE/pngmem.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngpread.c -o RELEASE/pngpread.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngread.c -o RELEASE/pngread.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngrio.c -o RELEASE/pngrio.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngrtran.c -o RELEASE/pngrtran.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngrutil.c -o RELEASE/pngrutil.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngset.c -o RELEASE/pngset.obj
+  ccpsx -I. -I.. -I../zlib/ -G2 -O2 -nostdlib -c pngtrans.c -o RELEASE/pngtrans.obj
+  psylib /a ../libpng.lib  RELEASE/png.obj  RELEASE/pngerror.obj  RELEASE/pngget.obj  RELEASE/pngmem.obj  RELEASE/pngpread.obj  RELEASE/pngread.obj  RELEASE/pngrio.obj  RELEASE/pngrtran.obj  RELEASE/pngrutil.obj  RELEASE/pngset.obj  RELEASE/pngtrans.obj
+  .obj RELEASE/pngrio.obj RELEASE/pngrtran.obj RELEASE/pngrutil.obj RELEASE/pngset.obj RELEASE/pngtrans.obj Cannot add module PNG     : it already exists
+  
+  Cannot add module PNGERROR: it already exists
+  
+  Cannot add module PNGGET  : it already exists
+  
+  Cannot add module PNGMEM  : it already exists
+  
+  Cannot add module PNGPREAD: it already exists
+  
+  Cannot add module PNGREAD : it already exists
+  
+  Cannot add module PNGRIO  : it already exists
+  
+  Cannot add module PNGRTRAN: it already exists
+  
+  Cannot add module PNGRUTIL: it already exists
+  
+  Cannot add module PNGSET  : it already exists
+  
+  Cannot add module PNGTRANS: it already exists
+  

@@ -1,0 +1,25 @@
+﻿  ccpsx -I. -I.. -G0 -O2 -nostdlib -c adler32.c -o RELEASE/adler32.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c crc32.c -o RELEASE/crc32.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c infback.c -o RELEASE/infback.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c inffast.c -o RELEASE/inffast.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c inflate.c -o RELEASE/inflate.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c inftrees.c -o RELEASE/inftrees.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c trees.c -o RELEASE/trees.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c zutil.c -o RELEASE/zutil.obj
+  psylib /a ../zlib.lib  RELEASE/adler32.obj  RELEASE/crc32.obj  RELEASE/infback.obj  RELEASE/inffast.obj  RELEASE/inflate.obj  RELEASE/inftrees.obj  RELEASE/trees.obj  RELEASE/zutil.obj
+  s.obj RELEASE/trees.obj RELEASE/zutil.obj Cannot add module ADLER32 : it already exists
+  
+  Cannot add module CRC32   : it already exists
+  
+  Cannot add module INFBACK : it already exists
+  
+  Cannot add module INFFAST : it already exists
+  
+  Cannot add module INFLATE : it already exists
+  
+  Cannot add module INFTREES: it already exists
+  
+  Cannot add module TREES   : it already exists
+  
+  Cannot add module ZUTIL   : it already exists
+  

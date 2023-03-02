@@ -1,0 +1,25 @@
+﻿  ccpsx -I. -I.. -G0 -O2 -nostdlib -c adler32.c -o DEBUG/adler32.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c crc32.c -o DEBUG/crc32.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c infback.c -o DEBUG/infback.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c inffast.c -o DEBUG/inffast.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c inflate.c -o DEBUG/inflate.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c inftrees.c -o DEBUG/inftrees.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c trees.c -o DEBUG/trees.obj
+  ccpsx -I. -I.. -G0 -O2 -nostdlib -c zutil.c -o DEBUG/zutil.obj
+  psylib /a ../zlib.lib  DEBUG/adler32.obj  DEBUG/crc32.obj  DEBUG/infback.obj  DEBUG/inffast.obj  DEBUG/inflate.obj  DEBUG/inftrees.obj  DEBUG/trees.obj  DEBUG/zutil.obj
+  trees.obj DEBUG/zutil.obj Added module ADLER32 
+  
+  Added module CRC32   
+  
+  Added module INFBACK 
+  
+  Added module INFFAST 
+  
+  Added module INFLATE 
+  
+  Added module INFTREES
+  
+  Added module TREES   
+  
+  Added module ZUTIL   
+  

@@ -1,0 +1,10 @@
+﻿  Configuration DEBUG
+  ------------------------
+  ccpsx -Wunused -O2 -G0 -nostdlib -DDEBUG -I.. -I. -c gui/test.c -o DEBUG/test.ogu
+  slink /psx /c /li DEBUG @main.lk,DEBUG/main.cpe,DEBUG/main.sym,main.map
+  
+  Completed in 0.14 seconds
+  CPE2X  0.5  (c) 1999 Blade
+  converting 'DEBUG/main.cpe' to 'DEBUG/main.exe'
+  #@run.bat
+  #@rm -f log.txt

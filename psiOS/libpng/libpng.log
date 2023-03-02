@@ -1,0 +1,3 @@
+﻿  rm -f DEBUG/*.*
+   - Cannot opengnumake: *** [clean] Error 1
+C:\Programmi\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(33,5): error MSB3073: The command "gnumake -e RELMODE=DEBUG clean" exited with code 2.

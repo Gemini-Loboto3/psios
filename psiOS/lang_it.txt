@@ -1,0 +1,28 @@
+﻿;########################################################################
+;# psiOS language file.							#
+;#----------------------------------------------------------------------#
+;# GUIDELINES								#
+;#----------------------------------------------------------------------#
+;# Each line corresponds to a full message in psiOS, line breaks are	#
+;# represented as '\n', while regular slashes as '\\'.			#
+;# All language files MUST be saved as UTF8 text files with line breaks	#
+;# encoded as 0x0D-0x0A (CR LF).					#
+;#----------------------------------------------------------------------#
+;# NOTES								#
+;#----------------------------------------------------------------------#
+;# Comments always start with the ';' character.			#
+;# No other characters will be tolerated, so please use it only at	#
+;# the beginning of each line, not other symbols before or after	#
+;# or they will cause incorrect behaviours in the text file parser.	#
+;########################################################################
+
+; language name
+language = Italiano
+; thousands separator (ex: 10,000 [english] vs 10.000 [italian])
+separator = .
+; decimal separator (ex: 1,23 [english] vs 1.23 [italian])
+decimal = ,
+; system strings
+menu = Menu
+
+; do not remove this line

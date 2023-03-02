@@ -1,0 +1,73 @@
+	org     $80010000
+
+hirom	group	file("HIROM.BIN")
+
+text    group                           ; main text group
+bss     group   bss                     ; main data group
+
+	section .text,text     	; main sections
+	section .rdata,text
+	section .ctors,text
+	section .dtors,text
+	section .data,text
+	section .sdata,text
+	section .sbss,bss
+	section .bss,bss
+
+; Use libsn.lib for development and None2.lib for child.
+	include core.obj
+	include	main.obj
+	include control.obj
+	include general.obj
+	include font.obj
+	include cd.obj
+	include cdfile.obj
+	include cdthread.obj
+	include graph.obj
+	include gfx.obj
+	include readpng.obj
+	; gui
+	include test.ogu
+	include list.ogu
+	include pbar.ogu
+	include windows.ogu
+	; encoding
+	include encoding.oen
+	include wchar.oen
+	include cp874.oen
+	include cp932.oen
+	include cp936.oen
+	include cp949.oen
+	include cp950.oen
+	include cp1250.oen
+	include cp1251.oen
+	include cp1252.oen
+	include cp1253.oen
+	include cp1254.oen
+	include cp1255.oen
+	include cp1256.oen
+	include cp1257.oen
+	include cp1258.oen
+	; file system
+	include diskio.ofs
+	include pff.ofs
+
+	include	"c:\psxdev\lib\noprint.obj"
+	inclib	"c:\psxdev\lib\libsn.lib"
+	inclib	"c:\psxdev\lib\libapi.lib"
+	inclib	"c:\psxdev\lib\libc.lib"
+	inclib	"c:\psxdev\lib\libc2.lib"
+	inclib	"c:\psxdev\lib\libcard.lib"
+	inclib	"c:\psxdev\lib\libcd.lib"
+	inclib	"c:\psxdev\lib\libetc.lib"
+	inclib	"c:\psxdev\lib\libgpu.lib"
+	inclib	"c:\psxdev\lib\libgs.lib"
+	inclib	"c:\psxdev\lib\libgte.lib"
+	inclib	"c:\psxdev\lib\libmath.lib"
+	inclib	"c:\psxdev\lib\libpad.lib"
+	inclib	"c:\psxdev\lib\libsio.lib"
+	inclib	"c:\psxdev\lib\libspu.lib"
+	inclib  "c:\psxdev\lib\libpress.lib"
+	inclib	"zlib.lib"
+	inclib	"libpng.lib"
+	regs	pc=__SN_ENTRY_POINT     ; entry point

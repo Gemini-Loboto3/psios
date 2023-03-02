@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="fs">
+      <UniqueIdentifier>{33bba740-e16a-4918-8e41-053192f0a83b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encoding">
+      <UniqueIdentifier>{c3be035d-2ff3-453c-9590-e2ee0ffe5e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{d57286cb-0321-4558-8ec1-638c5839f274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{4f281ecd-45b2-4a03-a646-4a10cc3953ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.lk" />
+    <None Include="makefile" />
+    <None Include="core\core.asm">
+      <Filter>core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="encoding\cp932.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\encoding.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="fs\diskio.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="fs\pff.c">
+      <Filter>fs</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1253.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\wchar.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1258.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp874.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp936.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp949.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp950.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1250.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1251.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1252.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1254.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1255.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1256.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="encoding\cp1257.c">
+      <Filter>encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="core\general.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\language.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\main.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\readpng.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\cd.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\cdthread.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\cdfile.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\gfx.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\graph.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\test.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="core\control.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\list.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="core\font.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\windows.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\pbar.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="encoding\encoding.h">
+      <Filter>encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\pff.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\diskio.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\integer.h">
+      <Filter>fs</Filter>
+    </ClInclude>
+    <ClInclude Include="encoding\wchar.h">
+      <Filter>encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\general.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\readpng.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cd.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cdthread.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cdfile.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graph.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ctrller.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\control.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\list.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\font.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\windows.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\pbar.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\fixed.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

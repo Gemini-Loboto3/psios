@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psiOS", "psiOS.vcxproj", "{3688323D-74A9-4A44-AFFA-B43312E6012F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "libpng\libpng.vcxproj", "{60F70D6F-1D1D-4664-B966-23E643E81734}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "zlib\zlib.vcxproj", "{8DF1F218-5922-486D-9A6F-42E4724B3445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3688323D-74A9-4A44-AFFA-B43312E6012F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3688323D-74A9-4A44-AFFA-B43312E6012F}.Debug|Win32.Build.0 = Debug|Win32
+		{3688323D-74A9-4A44-AFFA-B43312E6012F}.Release|Win32.ActiveCfg = Release|Win32
+		{3688323D-74A9-4A44-AFFA-B43312E6012F}.Release|Win32.Build.0 = Release|Win32
+		{60F70D6F-1D1D-4664-B966-23E643E81734}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60F70D6F-1D1D-4664-B966-23E643E81734}.Release|Win32.ActiveCfg = Release|Win32
+		{8DF1F218-5922-486D-9A6F-42E4724B3445}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8DF1F218-5922-486D-9A6F-42E4724B3445}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
